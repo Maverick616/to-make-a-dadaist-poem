@@ -2,4 +2,4 @@
 
 A simple text reassembler based on Tristan Tzara's "To Make a Dadaist Poem"
 
-[Realised version of "To Make a Dadaist Poem"](chill-motley-skate.glitch.me/)
+[Realised version of "To Make a Dadaist Poem"](chill-motley-skate.glitch.me)
