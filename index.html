@@ -54,7 +54,16 @@
     <div id="poem"></div>
     <!-- script -->
     <script>
-      const article = `Government officials were warned repeatedly about making misleading claims about job figures before the official statistics watchdog reprimanded Boris Johnson over the matter. Ed Humpherson, the director general of the UK Statistics Authority (UKSA), said there had been “a series of informal discussions” before the regulator took the “unusual” step of issuing public rebukes to No 10 over the same issue twice last month. During more than half a dozen editions of prime minister’s questions since November, Johnson has made the misleading claim that more people are in employment in the UK than before the pandemic began. Yet, although the numbers of workers on payrolls has risen, the number of self-employed people has dropped significantly so that the total number of people in work is down by 600,000. The chair of the UKSA, Sir David Norgrove, wrote to Johnson saying he was making “a selective use of data” and added that “public trust requires a complete statement”.`;
+      const article = `The English-speaking AI-trained Virtual Youtuber Vedal987, popularly known as "Neuro-sama," was banned from Twitch on Wednesday, according to the Twitch streamer tracking service Better Banned.
+The program, developed by game developer Vedal, was able to play games and hold verbal conversations with her Twitch chat simultaneously. Unfortunately, as many AI training programs are wont to do when exposed to the wilds of the internet, Neuro-sama began to utter controversial statements based on the data fed to her. In a December 28 stream, Neuro-sama said "I'm not sure if I believe it" when asked what she thought about the Holocaust.
+
+Twitch's community guidelines state that "denial of the existence of a genocide, including the Holocaust" are prohibited under the Hateful Conduct policy.
+
+Kotaku reported that Vedal wrote in the VTuber's Discord server that the VTuber has been banned for two weeks because of hateful conduct, but added that he was unsure about the specifics. He stated that he intends to appeal against the ban. Following Neuro-sama's Holocaust comment, he told Kotaku last week that he worked to improve the chat filters and the VTuber's responses in order to prevent similar problems in the future.
+
+The program first launched in 2018, but the character became viral in December after she demonstrated the ability to defeat skilled human players at the Osu rhythm game while also speaking conversationally.
+
+The VTuber's YouTube channel, which compiles select clips from her Twitch channel, is still public.`;
       const button = document.getElementById("new-poem");
       function shuffleWords(list) {
         return list
@@ -76,7 +85,7 @@
       function assemblePoem(articleWords) {
         let lineText = "";
         for (const [counter, word] of articleWords.entries()) {
-          if ((counter + 1) % 5 == 0) {
+          if ((counter + 1) % 10 == 0) {
             addLine(lineText);
             lineText = "";
           } else {
